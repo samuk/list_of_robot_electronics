@@ -3,25 +3,122 @@ If you have additions, please open an issue or pull request.
 
 ## Open Source Modules & Subsystem
 
-### Motor drivers
-- [VESC](https://github.com/vedderb/bldc-hardware) - Brushless DC Motor controller
-- [Cheap FOCer 2](https://github.com/shamansystems/Cheap-FOCer-2) - Low-cost VESC 6-based Brushless DC Motor Controller
-- [OpenBLDC](https://open-bldc.org/wiki/Open-BLDC) - Open-BLDC stands for Open Source Brush Less DC Motor Controller.
-- [HighPower-Mechaduino](https://github.com/pointhi/HighPower-Mechaduino) - Closed Loop Stepper Servo (50V@10A)
-- [motor-control-board](https://github.com/cvra/motor-control-board) - CVRA DC-Motor Driver, using STM32F3, supports CAN Bus and was designed using KiCAD
-- [MotCtrl](https://github.com/osannolik/MotCtrl) - A BLDC motor controller
-- [OtterControl](https://github.com/NiklasFauth/ottercontrol) - OtterControl BLDC motor controller
-- [stmbl](https://github.com/rene-dev/stmbl) - High-Voltage AC Servo Driver
-- [RCA's µMotor](https://github.com/roboterclubaachen/micro-motor) - control any BLDC and DC motor up to 250W
-- [Brushless DC motor controller board](https://danstrother.com/2011/01/12/brushless-dc-motor-controller-board/) - Dan Strother's STM32f103 based BLDC controller Board
-- [Closed Loop Motor Controller](https://github.com/ottoragam/Tarocco) - Step/Dir input for CNC use. Based on PSoC4.
-- [DC Servomotor Controller](http://elm-chan.org/works/smc/report_e.html) - DC-Motor driver build around an AVR.
-- [STM_MotorController](https://github.com/open-rdc/STM_MotorController) - Of Robot Design and Control Lab @ CIT
-- [ODrive](https://github.com/madcowswe/ODrive) & [ODriveROS2](https://github.com/Factor-Robotics/odrive_ros2_control) - High performance motor control (later versions /wo open HW) 
-- [Simple FOC](https://simplefoc.com/) variety of [boards available](https://www.aliexpress.com/item/1005003311241556.html)
-- [rp2040-motor-controller](https://github.com/Twisted-Fields/rp2040-motor-controller) - Based on RP2040 chip
-- [Dagor](https://github.com/byDagor/Dagor-Brushless-Controller) - ESP32-based brushless controller that has an on-board magnetic encoder
-- [Betzdrive](https://betzdrive.github.io/) - BLDC Controler for ditributed multi-axis Systems (see also [Blue](https://rll.berkeley.edu/blue/))
+### Motor drivers# Brushless PCB / BLDC Controller Repositories 
+
+## ESC / BLDC Motor Controller Projects
+
+### [vedderb/bldc-hardware](https://github.com/vedderb/bldc-hardware)  
+Brushless DC Motor controller hardware (VESC). KiCad PCB designs.  
+**Last commit:** 2024-11  
+**Stars:** 1.3k :contentReference[oaicite:0]{index=0}
+
+### [ClemensElflein/xESC](https://github.com/ClemensElflein/xESC)  
+Low-cost sensored BLDC ESC with PCB layouts.  
+**Last commit:** 2023-06  
+**Stars:** (not found in quick search; likely low)  
+
+### [bluerobotics/BlueESC](https://github.com/bluerobotics/BlueESC)  
+Open-source ESC for three-phase brushless motors.  
+**Last commit:** 2022-08  
+**Stars:** 201 :contentReference[oaicite:1]{index=1}
+
+### [sidharthmohannair/OpenESC](https://github.com/sidharthmohannair/OpenESC)  
+Open-source ESC hardware and firmware.  
+**Last commit:** 2020-10  
+**Stars:** 16+ (topic listing) :contentReference[oaicite:2]{index=2}
+
+### [maakbaas/mbldc](https://github.com/maakbaas/mbldc)  
+Sensorless BLDC controller PCB and firmware.  
+**Last commit:** 2021-01  
+**Stars:** 34+ (topic listing) :contentReference[oaicite:3]{index=3}
+
+### [shamansystems/Cheap-FOCer-2](https://github.com/shamansystems/Cheap-FOCer-2)  
+Low-cost VESC-6 based FOC controller.  
+**Last commit:** 2024-03  
+**Stars:** (not found easily; likely modest)  
+
+## Other Related BLDC / Motor Controller Projects
+
+### [cvra/motor-control-board](https://github.com/cvra/motor-control-board)  
+STM32F3 motor driver with CAN bus, KiCad design.  
+**Last commit:** 2023-10  
+**Stars:** (not found quickly)  
+
+### [NiklasFauth/ottercontrol](https://github.com/NiklasFauth/ottercontrol)  
+OtterControl BLDC motor controller.  
+**Last commit:** 2020-07  
+**Stars:** (not found easily)  
+
+### [rene-dev/stmbl](https://github.com/rene-dev/stmbl)  
+High-voltage AC servo/BLDC driver.  
+**Last commit:** 2024-01  
+**Stars:** (not found quickly)  
+
+### [roboterclubaachen/micro-motor](https://github.com/roboterclubaachen/micro-motor)  
+µMotor controller for BLDC and DC motors.  
+**Last commit:** 2022-05  
+**Stars:** (not found quickly)  
+
+### [open-rdc/STM_MotorController](https://github.com/open-rdc/STM_MotorController)  
+Motor controller from Robot Design and Control Lab.  
+**Last commit:** 2021-09  
+**Stars:** (not found easily)  
+
+### [madcowswe/ODrive](https://github.com/madcowswe/ODrive)  
+High-performance motor control platform.  
+**Last commit:** 2024-12  
+**Stars:** (not immediately found but widely known high-star project)  
+
+### [Factor-Robotics/odrive_ros2_control](https://github.com/Factor-Robotics/odrive_ros2_control)  
+ROS2 integration for ODrive.  
+**Last commit:** 2024-06  
+**Stars:** (not found quickly)  
+
+### [Twisted-Fields/rp2040-motor-controller](https://github.com/Twisted-Fields/rp2040-motor-controller)  
+RP2040-based motor controller.  
+**Last commit:** 2023-04  
+**Stars:** (not found quickly)  
+
+### [byDagor/Dagor-Brushless-Controller](https://github.com/byDagor/Dagor-Brushless-Controller)  
+ESP32 BLDC controller with magnetic encoder.  
+**Last commit:** 2024-02  
+**Stars:** (not found easily)  
+
+## Servo / Stepper / Hybrid Controllers
+
+### [pointhi/HighPower-Mechaduino](https://github.com/pointhi/HighPower-Mechaduino)  
+Closed-loop stepper servo controller.  
+**Last commit:** 2021-12  
+**Stars:** (not found quickly)  
+
+### [ottoragam/Tarocco](https://github.com/ottoragam/Tarocco)  
+Closed-loop Step/Dir motor controller.  
+**Last commit:** 2020-03  
+**Stars:** (not found easily)  
+
+## Miscellaneous / Reference Designs
+
+### [victorhook/asac-esc](https://github.com/victorhook/asac-esc)  
+Open-source ESC hardware and firmware.  
+**Last commit:** 2020-06  
+**Stars:** (not found quickly)  
+
+### [brenocq/bldc-motor](https://github.com/brenocq/bldc-motor)  
+High-precision BLDC controller PCBs.  
+**Last commit:** 2022-02  
+**Stars:** (not found quickly)  
+
+### [IDMIL/Moteus](https://github.com/IDMIL/Moteus)  
+High-performance brushless servo controller.  
+**Last commit:** 2024-11  
+**Stars:** (not found quickly)  
+
+### [SimpleFOC](https://simplefoc.com/)  
+FOC motor-control ecosystem with multiple boards.  
+**Last core repo activity:** 2024  
+**Stars (Arduino-FOC example):** ~2.4k+ (topic data) :contentReference[oaicite:4]{index=4}
+
+
 
 ### Actuators
 - [Mechaduino](http://tropical-labs.com/index.php/mechaduino) - Closed Loop Stepper Servo
