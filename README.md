@@ -7,25 +7,27 @@ If you have additions, please open an issue or pull request.
 
 ## ESC / BLDC Motor Controller Projects
 
-* [vedderb/bldc-hardware](https://github.com/vedderb/bldc-hardware) - Brushless DC Motor controller hardware (VESC). Stars: ~1.3k, last commit 2024‑11
-* [IDMIL/Moteus](https://github.com/IDMIL/Moteus) - High‑performance brushless servo controller. Stars: unknown, last commit 2024‑11
-* [shamansystems/Cheap-FOCer-2](https://github.com/shamansystems/Cheap-FOCer-2) - Low‑cost VESC‑6‑based FOC controller. Stars: unknown, last commit 2024‑03
-* [byDagor/Dagor-Brushless-Controller](https://github.com/byDagor/Dagor-Brushless-Controller) - ESP32 BLDC controller with encoder. Stars: unknown, last commit 2024‑02
-* [rene-dev/stmbl](https://github.com/rene-dev/stmbl) - High‑voltage AC servo/BLDC driver. Stars: unknown, last commit 2024‑01
-* [odriverobotics/ODrive](https://github.com/odriverobotics/ODrive) - High‑performance BLDC motor control platform. Stars: ~3.5k, last commit active as of 2024
-* [Factor-Robotics/odrive_ros2_control](https://github.com/Factor-Robotics/odrive_ros2_control) - ODrive ROS2 driver. Stars: ~323, last commit 2024‑06
-* [ClemensElflein/xESC](https://github.com/ClemensElflein/xESC) - Low‑cost sensored BLDC ESC with PCB layouts. Stars: unknown, last commit 2023‑06
-* [Twisted-Fields/rp2040-motor-controller](https://github.com/Twisted-Fields/rp2040-motor-controller) - RP2040‑based motor controller. Stars: unknown, last commit 2023‑04
-* [bluerobotics/BlueESC](https://github.com/bluerobotics/BlueESC) - Open‑source ESC for three-phase brushless motors. Stars: unknown, last commit 2022‑08
-* [brenocq/bldc-motor](https://github.com/brenocq/bldc-motor) - High‑precision BLDC controller PCBs. Stars: unknown, last commit 2022‑02
-* [roboterclubaachen/micro-motor](https://github.com/roboterclubaachen/micro-motor) - µMotor controller for BLDC/DC motors. Stars: unknown, last commit 2022‑05
-* [maakbaas/mbldc](https://github.com/maakbaas/mbldc) - Sensorless BLDC controller PCB and firmware. Stars: unknown, last commit 2021‑01
-* [pointhi/HighPower-Mechaduino](https://github.com/pointhi/HighPower-Mechaduino) - Closed‑loop stepper servo controller. Stars: unknown, last commit 2021‑12
-* [open-rdc/STM_MotorController](https://github.com/open-rdc/STM_MotorController) - Motor controller from RDC Lab. Stars: unknown, last commit 2021‑09
-* [sidharthmohannair/OpenESC](https://github.com/sidharthmohannair/OpenESC) - Open‑source ESC hardware and firmware. Stars: unknown, last commit 2020‑10
-* [NiklasFauth/ottercontrol](https://github.com/NiklasFauth/ottercontrol) - OtterControl BLDC controller. Stars: unknown, last commit 2020‑07
-* [victorhook/asac-esc](https://github.com/victorhook/asac-esc) - Open‑source ESC hardware and firmware. Stars: unknown, last commit 2020‑06
-* [ottoragam/Tarocco](https://github.com/ottoragam/Tarocco) - Closed‑loop Step/Dir motor controller. Stars: unknown, last commit 2020‑03
+| Repository | Description | Stars | Last Commit |
+|------------|-------------|-------|-------------|
+| [vedderb/bldc-hardware](https://github.com/vedderb/bldc-hardware) | Brushless DC Motor controller hardware (VESC) | ~1.3k | 2024‑11 |
+| [IDMIL/Moteus](https://github.com/IDMIL/Moteus) | High‑performance brushless servo controller | unknown | 2024‑11 |
+| [shamansystems/Cheap-FOCer-2](https://github.com/shamansystems/Cheap-FOCer-2) | Low‑cost VESC‑6‑based FOC controller | unknown | 2024‑03 |
+| [byDagor/Dagor-Brushless-Controller](https://github.com/byDagor/Dagor-Brushless-Controller) | ESP32 BLDC controller with encoder | unknown | 2024‑02 |
+| [rene-dev/stmbl](https://github.com/rene-dev/stmbl) | High‑voltage AC servo/BLDC driver | unknown | 2024‑01 |
+| [odriverobotics/ODrive](https://github.com/odriverobotics/ODrive) | High‑performance BLDC motor control platform | ~3.5k | 2024 |
+| [Factor-Robotics/odrive_ros2_control](https://github.com/Factor-Robotics/odrive_ros2_control) | ODrive ROS2 driver | ~323 | 2024‑06 |
+| [ClemensElflein/xESC](https://github.com/ClemensElflein/xESC) | Low‑cost sensored BLDC ESC with PCB layouts | unknown | 2023‑06 |
+| [Twisted-Fields/rp2040-motor-controller](https://github.com/Twisted-Fields/rp2040-motor-controller) | RP2040‑based motor controller | unknown | 2023‑04 |
+| [bluerobotics/BlueESC](https://github.com/bluerobotics/BlueESC) | Open‑source ESC for three-phase brushless motors | unknown | 2022‑08 |
+| [brenocq/bldc-motor](https://github.com/brenocq/bldc-motor) | High‑precision BLDC controller PCBs | unknown | 2022‑02 |
+| [roboterclubaachen/micro-motor](https://github.com/roboterclubaachen/micro-motor) | µMotor controller for BLDC/DC motors | unknown | 2022‑05 |
+| [maakbaas/mbldc](https://github.com/maakbaas/mbldc) | Sensorless BLDC controller PCB and firmware | unknown | 2021‑01 |
+| [pointhi/HighPower-Mechaduino](https://github.com/pointhi/HighPower-Mechaduino) | Closed‑loop stepper servo controller | unknown | 2021‑12 |
+| [open-rdc/STM_MotorController](https://github.com/open-rdc/STM_MotorController) | Motor controller from RDC Lab | unknown | 2021‑09 |
+| [sidharthmohannair/OpenESC](https://github.com/sidharthmohannair/OpenESC) | Open‑source ESC hardware and firmware | unknown | 2020‑10 |
+| [NiklasFauth/ottercontrol](https://github.com/NiklasFauth/ottercontrol) | OtterControl BLDC controller | unknown | 2020‑07 |
+| [victorhook/asac-esc](https://github.com/victorhook/asac-esc) | Open‑source ESC hardware and firmware | unknown | 2020‑06 |
+| [ottoragam/Tarocco](https://github.com/ottoragam/Tarocco) | Closed‑loop Step/Dir motor controller | unknown | 2020‑03 |
 
 
 ### Actuators
