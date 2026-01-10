@@ -45,8 +45,12 @@ If you have additions, please open an issue or pull request.
 
 
 ### Computer Vision
-- [OpenMV](https://github.com/openmv/openmv) - OpenMV, an embedded CV Module (CMOS Sensor with STM32)
-- [PX4Flow](https://github.com/PX4/Hardware/tree/master/FLOWv1) - PX4Flow, Optical Flow Sensor
+| Repository                                                                                                                         | Description                                            | Stars          | Last Commit  |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------- | ------------ |
+| [https://github.com/openmv/openmv](https://github.com/openmv/openmv)                                                               | OpenMV, an embedded CV Module (CMOS Sensor with STM32) | 1,227 (approx) | `YYYY‑MM‑DD` |
+| [https://github.com/Camemake/CM_ESP_P4_C5-Open-Hardware-Platform](https://github.com/Camemake/CM_ESP_P4_C5-Open-Hardware-Platform) | Open hardware ESP32‑P4 + ESP32‑C5 vision/HMI platform  | N/A            | `YYYY‑MM‑DD` |
+| [https://github.com/kuku-199/OpenCamera-Hardware](https://github.com/kuku-199/OpenCamera-Hardware)                                 | Open-source hardware platform for camera modules       | N/A            | `YYYY‑MM‑DD` |
+
 
 ### Battery Management ###
 - [DieBieMS](https://github.com/DieBieEngineering/DieBieMS) - DieBieMS (3-12S LiIon-based, 100A)
