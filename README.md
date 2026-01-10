@@ -3,7 +3,29 @@ If you have additions, please open an issue or pull request.
 
 ## Open Source Modules & Subsystem
 
+### Compute
+
 ### Motor drivers# Brushless PCB / BLDC Controller Repositories 
+
+
+# Brushed motor Drivers
+
+| Repository                                                                                                                                                    | Description                                                              | Stars | Last Commit |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----- | ----------- |
+| [a2821313427/DC-Brushed-Motor-Driver-PCB](https://github.com/a2821313427/DC-Brushed-Motor-Driver-PCB)                                                         | STM32-based DC motor driver; schematic, PCB layout, soldering/debugging  | 0     | 2025-12     |
+| [techy-robot/CACKLE-Driver-DRV8213_brushed_Motor_Driver](https://github.com/techy-robot/CACKLE-Driver-DRV8213_brushed_Motor_Driver)                           | Modular DRV8213 brushed motor driver PCB                                 | 0     | 2025-11     |
+| [adafruit/Adafruit-STSPIN220-Stepper-Motor-Driver-Breakout-Board-PCB](https://github.com/adafruit/Adafruit-STSPIN220-Stepper-Motor-Driver-Breakout-Board-PCB) | PCB files for the Adafruit STSPIN220 Stepper Motor Driver Breakout Board | 0     | 2025-06     |
+| [adafruit/Adafruit-TMC2209-Breakout-PCB](https://github.com/adafruit/Adafruit-TMC2209-Breakout-PCB)                                                           | PCB files for the Adafruit TMC2209 Stepper Motor Driver Breakout Board   | 4     | 2025-01     |
+| [sparkfun/SparkFun_Three_Phase_Motor_Driver-TMC6300](https://github.com/sparkfun/SparkFun_Three_Phase_Motor_Driver-TMC6300)                                   | Hardware for TMC6300 three-phase motor driver breakout                   | 8     | 2025-02     |
+| [vedderb/bldc-hardware](https://github.com/vedderb/bldc-hardware)                                                                                             | Brushless DC Motor controller hardware (VESC)                            | ~1.3k | 2024-11     |
+| [adafruit/Adafruit-A4988-Breakout-PCB](https://github.com/adafruit/Adafruit-A4988-Breakout-PCB)                                                               | PCB files for the Adafruit A4988 Stepper Motor Driver Breakout Board     | 2     | 2024-12     |
+| [X-Green/24to12-BrushedMotorDriverPCB](https://github.com/X-Green/24to12-BrushedMotorDriverPCB)                                                               | Use DRV8801 to drive 12V 1A BDC Motor                                    | 0     | 2023-05     |
+| [adafruit/Adafruit-DRV2605-PCB](https://github.com/adafruit/Adafruit-DRV2605-PCB)                                                                             | PCB files for Adafruit DRV2605 Haptic Motor Driver                       | 8     | 2022-07     |
+| [adafruit/Adafruit-DC-Stepper-Motor-HAT-PCB](https://github.com/adafruit/Adafruit-DC-Stepper-Motor-HAT-PCB)                                                   | PCB files for the Adafruit DC Stepper Motor HAT and Bonnet               | 14    | 2022-06     |
+| [sparkfun/Easy_Driver](https://github.com/sparkfun/Easy_Driver)                                                                                               | EasyDriver stepper motor driver                                          | 30    | 2020-10     |
+| [sparkfun/Pi_Servo_Hat](https://github.com/sparkfun/Pi_Servo_Hat)                                                                                             | Raspberry Pi servo HAT controlling up to 16 servos                       | 21    | 2020-07     |
+
+
 
 ## ESC / BLDC Motor Controller Projects
 
