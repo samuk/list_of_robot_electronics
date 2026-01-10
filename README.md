@@ -31,12 +31,18 @@ If you have additions, please open an issue or pull request.
 
 
 ### Actuators
-- [Mechaduino](http://tropical-labs.com/index.php/mechaduino) - Closed Loop Stepper Servo
-- [OpenTorque Actuator](https://github.com/G-Levine/OpenTorque-Actuator) - Joint for legged robots
-- [3D Printed Robot Actuator](https://hackaday.io/project/157812-3d-printed-robot-actuator) - Motorcontroller + BLDC + cycloidal gearbox and position feedback
-- [DirectServo](https://github.com/DizzyRobot/DirectServo) - Robotic joint controller with BLDC driver and magnetic encoder.
-- [Moteus](https://github.com/mjbots/moteus) - Joint Controller and quadruped robot design
-- [ServoProject](https://github.com/adamb314/ServoProject) - A RC-Servo retrofit (new electronics, sensors and firmware)
+| Repository | Description | Stars | Last Commit |
+|------------|-------------|-------|-------------|
+| [robot‑actuator‑esp32‑v8](https://github.com/chilipeppr/robot-actuator-esp32-v8) | ESP32‑based robot arm actuator with PCB, firmware, and CAD files | 233 stars | Latest commit present in history (exact date not on UI) |
+| [OpenTorque‑Actuator](https://github.com/G-Levine/OpenTorque-Actuator) | Compliant actuator for legged robotics | 390 stars | Last visible commit ~2019 (no recent commit history shown) |
+| [open‑dynamic‑robot‑initiative/open_robot_actuator_hardware](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) | Open robot actuator platform (electronics + mechanics) | ~1.3k stars | Last visible commit ~4 years ago (around 2022) |
+| [mjbots/moteus](https://github.com/mjbots/moteus) | Brushless servo actuator controller hardware + firmware | ~1k+ stars | Active recent commit history into 2025 (per GitHub “Activity” and releases, exact date via releases page) |
+| [JorgeMaker/NautilusController](https://github.com/JorgeMaker/NautilusController) | SimpleFOC‑based brushless actuator controller PCB | unknown | *commit history not shown in search UI* |
+| [SRA‑VJTI/TitanLegs](https://github.com/SRA-VJTI/TitanLegs) | Robot leg actuator design with PCB | 1 star | *commit history not shown in search UI* |
+| [MarginallyClever/Daisy‑Driver‑2.0‑firmware](https://github.com/MarginallyClever/Daisy-Driver-2.0-firmware) | Firmware for actuator driver PCB | unknown | *commit history not shown in search UI* |
+| [DirectServo](https://github.com/DizzyRobot/DirectServo) | Robotic joint controller with BLDC + encoder | unknown | *commit history not shown in search UI* |
+| [ServoProject](https://github.com/adamb314/ServoProject) | RC‑Servo electrode retrofit | unknown | *commit history not shown in search UI* |
+
 
 ### Computer Vision
 - [OpenMV](https://github.com/openmv/openmv) - OpenMV, an embedded CV Module (CMOS Sensor with STM32)
