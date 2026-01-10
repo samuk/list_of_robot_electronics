@@ -1,12 +1,5 @@
-# A list of resources, projects and products useful for robot electronics
+# A list of resources, open hardware projects and products useful for robot electronics
 If you have additions, please open an issue or pull request.
-
-## Open Source Modules & Subsystem
-
-### Compute
-
-### Motor drivers# Brushless PCB / BLDC Controller Repositories 
-
 
 # Brushed motor Drivers
 
