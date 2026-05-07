@@ -25,6 +25,7 @@ If you have additions, please open an issue or pull request.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
+| [Open dual motor](https://github.com/MilosRasic98/OpenDualMotorDriver) ![GitHub Repo stars](https://img.shields.io/github/stars/MilosRasic98/OpenDualMotorDriver?style=social) | EasyDriver stepper motor driver | ![GitHub last commit](https://img.shields.io/github/last-commit/MilosRasic98/OpenDualMotorDriver?style=for-the-badge) |
 | [SparkFun Easy Driver](https://github.com/sparkfun/Easy_Driver) ![GitHub Repo stars](https://img.shields.io/github/stars/sparkfun/Easy_Driver?style=social) | EasyDriver stepper motor driver | ![GitHub last commit](https://img.shields.io/github/last-commit/sparkfun/Easy_Driver?style=for-the-badge) |
 | [SparkFun Pi Servo Hat](https://github.com/sparkfun/Pi_Servo_Hat) ![GitHub Repo stars](https://img.shields.io/github/stars/sparkfun/Pi_Servo_Hat?style=social) | Raspberry Pi servo HAT controlling up to 16 servos | ![GitHub last commit](https://img.shields.io/github/last-commit/sparkfun/Pi_Servo_Hat?style=for-the-badge) |
 | [Adafruit DC Stepper Motor HAT](https://github.com/adafruit/Adafruit-DC-Stepper-Motor-HAT-PCB) ![GitHub Repo stars](https://img.shields.io/github/stars/adafruit/Adafruit-DC-Stepper-Motor-HAT-PCB?style=social) | PCB files for the Adafruit DC Stepper Motor HAT and Bonnet | ![GitHub last commit](https://img.shields.io/github/last-commit/adafruit/Adafruit-DC-Stepper-Motor-HAT-PCB?style=for-the-badge) |
