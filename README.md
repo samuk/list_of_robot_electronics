@@ -3,6 +3,8 @@
 A list of resources, open hardware projects and products useful for robot electronics.
 If you have additions, please open an issue or pull request.
 
+> Sorting note: rows with a literal date in "Last Updated" (OSHWLab/OSHWHub entries) are sorted newest-first. Rows with a dynamic GitHub last-commit badge have no literal date in this file to sort by, so they remain in their original order.
+
 ---
 
 ## Table of Contents
@@ -42,17 +44,24 @@ If you have additions, please open an issue or pull request.
 
 ## ESC / BLDC Motor Controllers
 
-> Note: OSHWLab/OSHWHub projects do not support GitHub badge URLs. Star counts for those are noted inline; last-commit badges only work for GitHub-hosted repos.
+> Note: OSHWLab/OSHWHub projects do not support GitHub badge URLs, so their "Last Updated" is a literal date and can be sorted directly (rows below are sorted, newest first). GitHub-hosted projects use a dynamic last-commit badge with no literal date in this file, so they can't be sorted here without querying the GitHub API; they're listed below in their original order pending that.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
-| [SimpleFOCShield](https://oshwlab.com/the.skuric/simplefocshield) ⭐ 17k | Classic SimpleFOCShield design (MIT licensed) for Arduino/FOC applications | 2022-01 |
+| [6-Step BLDC Driver STM32F051](https://oshwhub.com/zz8976/stm32f051_6step_bldc) | Sensorless BLDC driver based on STM32F051K8U6 with FD6288Q; six-step commutation | 2025-11 |
+| [STM32G4 BLDC Driver](https://oshwhub.com/tslong/stm32g4_-ying-jian-hu-bu-qu-dong) | STM32G431RBT6 BLDC/PMSM driver, 3-phase H-bridge, 12–60V, Hall/encoder, current sense | 2025-09 |
 | [MicroSpora SimpleFOC](https://oshwlab.com/rambros/nano-8316-motor-driver) ⭐ 6.6k | STM32G431CBU6 + DRV8316 for high-performance SimpleFOC; CAN, USB, encoder interfaces | 2025-05 |
-| [VESC bldc-hardware](https://github.com/vedderb/bldc-hardware) ![GitHub Repo stars](https://img.shields.io/github/stars/vedderb/bldc-hardware?style=social) | Brushless DC motor controller hardware for VESC ecosystem; widely used in electric skateboards/robots | ![GitHub last commit](https://img.shields.io/github/last-commit/vedderb/bldc-hardware?style=for-the-badge) |
-| [SimpleFOC42B](https://oshwlab.com/diekerker/simplefoc42b) ⭐ 828 | STM32F103-based stepper/BLDC driver board with magnetic encoder for SimpleFOC | 2023-06 |
-| [SimpleFOC StepMini](https://oshwlab.com/the.skuric/simplefocmini_copy) ⭐ 767 | SimpleFOC StepMini driver board variant (public domain) derived from SimpleFOCMini project | 2024-05 |
-| [BLDC FOC Driver IR2103](https://oshwlab.com/alperaydin0105/esc-ir2103) ⭐ 729 | BLDC FOC motor driver 12–80V; IR2103 gate drive front end; SimpleFOC-tagged | 2024-01 |
+| [SimpleFOCShield v3 Redesigned](https://oshwhub.com/wszq/simplefocshield-v3) | Arduino-compatible SimpleFOCShield v3.2 with current sensing and encoder interfaces | 2024-10 |
 | [SimpleFOC Stepstick](https://oshwlab.com/dekutree64/SimpleFOC-Stepstick) ⭐ 690 | STM32G431 + DRV8955 3-phase/stepper driver; tune parameters per motor/encoder | 2024-08 |
+| [SimpleFOC StepMini](https://oshwlab.com/the.skuric/simplefocmini_copy) ⭐ 767 | SimpleFOC StepMini driver board variant (public domain) derived from SimpleFOCMini project | 2024-05 |
+| [SimpleFOC DRV8313 Driver](https://oshwhub.com/flowersauce/simplefoc4008) | Three-phase BLDC driver with DRV8313 and optional INA240 current sensing | 2024-04 |
+| [SimpleFOC_X Integrated Driver](https://oshwhub.com/yourallo/simplefoc_x) | ESP32 + DRV8313 integrated BLDC driver; current/velocity/position loop support | 2024-03 |
+| [BLDC FOC Driver IR2103](https://oshwlab.com/alperaydin0105/esc-ir2103) ⭐ 729 | BLDC FOC motor driver 12–80V; IR2103 gate drive front end; SimpleFOC-tagged | 2024-01 |
+| [SimpleFOC CAN Driver STM32](https://oshwhub.com/skythinker/simplefoc103) | STM32-based SimpleFOC FOC driver board with CAN communication support | 2023-07 |
+| [SimpleFOC42B](https://oshwlab.com/diekerker/simplefoc42b) ⭐ 828 | STM32F103-based stepper/BLDC driver board with magnetic encoder for SimpleFOC | 2023-06 |
+| [SimpleFOC ESP32 Tank](https://oshwhub.com/zxp1107/simplefoc0414_copy_copy_copy_copy) | ESP32 + L6234 + AS5600 dual BLDC tracked vehicle controller | 2022-04 |
+| [SimpleFOCShield](https://oshwlab.com/the.skuric/simplefocshield) ⭐ 17k | Classic SimpleFOCShield design (MIT licensed) for Arduino/FOC applications | 2022-01 |
+| [VESC bldc-hardware](https://github.com/vedderb/bldc-hardware) ![GitHub Repo stars](https://img.shields.io/github/stars/vedderb/bldc-hardware?style=social) | Brushless DC motor controller hardware for VESC ecosystem; widely used in electric skateboards/robots | ![GitHub last commit](https://img.shields.io/github/last-commit/vedderb/bldc-hardware?style=for-the-badge) |
 | [ODrive-inspired BLDC PCB](https://github.com/azmat-bilal/bldc_motor_controller_pcb) ![GitHub Repo stars](https://img.shields.io/github/stars/azmat-bilal/bldc_motor_controller_pcb?style=social) | ODrive-inspired single-channel BLDC motor controller PCB | ![GitHub last commit](https://img.shields.io/github/last-commit/azmat-bilal/bldc_motor_controller_pcb?style=for-the-badge) |
 | [Cheap FOCer 2](https://github.com/shamansystems/Cheap-FOCer-2) ![GitHub Repo stars](https://img.shields.io/github/stars/shamansystems/Cheap-FOCer-2?style=social) | Low-cost VESC-6-based FOC BLDC controller | ![GitHub last commit](https://img.shields.io/github/last-commit/shamansystems/Cheap-FOCer-2?style=for-the-badge) |
 | [Dagor Brushless Controller](https://github.com/byDagor/Dagor-Brushless-Controller) ![GitHub Repo stars](https://img.shields.io/github/stars/byDagor/Dagor-Brushless-Controller?style=social) | ESP32-based BLDC controller with encoder feedback | ![GitHub last commit](https://img.shields.io/github/last-commit/byDagor/Dagor-Brushless-Controller?style=for-the-badge) |
@@ -71,13 +80,7 @@ If you have additions, please open an issue or pull request.
 | [OtterControl](https://github.com/NiklasFauth/ottercontrol) ![GitHub Repo stars](https://img.shields.io/github/stars/NiklasFauth/ottercontrol?style=social) | OtterControl BLDC controller; legacy design | ![GitHub last commit](https://img.shields.io/github/last-commit/NiklasFauth/ottercontrol?style=for-the-badge) |
 | [asac-esc](https://github.com/victorhook/asac-esc) ![GitHub Repo stars](https://img.shields.io/github/stars/victorhook/asac-esc?style=social) | Open-source ESC hardware and firmware | ![GitHub last commit](https://img.shields.io/github/last-commit/victorhook/asac-esc?style=for-the-badge) |
 | [Tarocco](https://github.com/ottoragam/Tarocco) ![GitHub Repo stars](https://img.shields.io/github/stars/ottoragam/Tarocco?style=social) | Closed-loop Step/Dir motor controller | ![GitHub last commit](https://img.shields.io/github/last-commit/ottoragam/Tarocco?style=for-the-badge) |
-| [STM32G4 BLDC Driver](https://oshwhub.com/tslong/stm32g4_-ying-jian-hu-bu-qu-dong) | STM32G431RBT6 BLDC/PMSM driver, 3-phase H-bridge, 12–60V, Hall/encoder, current sense | 2025-09 |
-| [6-Step BLDC Driver STM32F051](https://oshwhub.com/zz8976/stm32f051_6step_bldc) | Sensorless BLDC driver based on STM32F051K8U6 with FD6288Q; six-step commutation | 2025-11 |
-| [SimpleFOCShield v3 Redesigned](https://oshwhub.com/wszq/simplefocshield-v3) | Arduino-compatible SimpleFOCShield v3.2 with current sensing and encoder interfaces | 2024-10 |
-| [SimpleFOC_X Integrated Driver](https://oshwhub.com/yourallo/simplefoc_x) | ESP32 + DRV8313 integrated BLDC driver; current/velocity/position loop support | 2024-03 |
-| [SimpleFOC DRV8313 Driver](https://oshwhub.com/flowersauce/simplefoc4008) | Three-phase BLDC driver with DRV8313 and optional INA240 current sensing | 2024-04 |
-| [SimpleFOC CAN Driver STM32](https://oshwhub.com/skythinker/simplefoc103) | STM32-based SimpleFOC FOC driver board with CAN communication support | 2023-07 |
-| [SimpleFOC ESP32 Tank](https://oshwhub.com/zxp1107/simplefoc0414_copy_copy_copy_copy) | ESP32 + L6234 + AS5600 dual BLDC tracked vehicle controller | 2022-04 |
+| [FOC BLDC Motor Controller](https://github.com/bejaouihamza/bldc-foc-pcb) ![GitHub Repo stars](https://img.shields.io/github/stars/bejaouihamza/bldc-foc-pcb?style=social) | STM32G474 + DRV8308 FOC driver, 8.5–32V/50A continuous, SVPWM, Hall feedback | ![GitHub last commit](https://img.shields.io/github/last-commit/bejaouihamza/bldc-foc-pcb?style=for-the-badge) |
 
 ---
 
@@ -95,6 +98,7 @@ If you have additions, please open an issue or pull request.
 | [Daisy Driver 2.0](https://github.com/MarginallyClever/Daisy-Driver-2.0-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/MarginallyClever/Daisy-Driver-2.0-firmware?style=social) | Firmware for actuator driver PCB | ![GitHub last commit](https://img.shields.io/github/last-commit/MarginallyClever/Daisy-Driver-2.0-firmware?style=for-the-badge) |
 | [DirectServo](https://github.com/DizzyRobot/DirectServo) ![GitHub Repo stars](https://img.shields.io/github/stars/DizzyRobot/DirectServo?style=social) | Robotic joint controller with BLDC + encoder | ![GitHub last commit](https://img.shields.io/github/last-commit/DizzyRobot/DirectServo?style=for-the-badge) |
 | [TitanLegs](https://github.com/SRA-VJTI/TitanLegs) ![GitHub Repo stars](https://img.shields.io/github/stars/SRA-VJTI/TitanLegs?style=social) | Robot leg actuator design with PCB | ![GitHub last commit](https://img.shields.io/github/last-commit/SRA-VJTI/TitanLegs?style=for-the-badge) |
+| [Gearotons M17 Servomotor](https://github.com/tomrodinger/servomotor) ![GitHub Repo stars](https://img.shields.io/github/stars/tomrodinger/servomotor?style=social) | Integrated NEMA-17 servomotor (motor + closed-loop driver + controller + encoder); RS-485, Python/Arduino libraries, MCP server for AI control | ![GitHub last commit](https://img.shields.io/github/last-commit/tomrodinger/servomotor?style=for-the-badge) |
 
 ---
 
