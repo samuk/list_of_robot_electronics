@@ -1,9 +1,7 @@
 # Robot Electronics Open Hardware Resources
 
 A list of resources, open hardware projects and products useful for robot electronics.
-If you have additions, please open an issue or pull request.
-
-> Sorting note: rows with a literal date in "Last Updated" (OSHWLab/OSHWHub entries) are sorted newest-first. Rows with a dynamic GitHub last-commit badge have no literal date in this file to sort by, so they remain in their original order.
+If you have additions, please open a pull request.
 
 ---
 
