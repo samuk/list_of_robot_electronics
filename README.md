@@ -42,7 +42,6 @@ If you have additions, please open a pull request.
 
 ## ESC / BLDC Motor Controllers
 
-> Note: OSHWLab/OSHWHub projects do not support GitHub badge URLs, so their "Last Updated" is a literal date and can be sorted directly (rows below are sorted, newest first). GitHub-hosted projects use a dynamic last-commit badge with no literal date in this file, so they can't be sorted here without querying the GitHub API; they're listed below in their original order pending that.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
