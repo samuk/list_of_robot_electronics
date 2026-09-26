@@ -1,6 +1,6 @@
 # Robot Electronics Open Hardware Resources
 
-A list of resources, open hardware projects and products useful for robot electronics.
+A list of resources, open hardware projects and products useful for robot electronics. For a list of complete robots see [Awesome Open Source Robots](https://github.com/stephane-caron/awesome-open-source-robots)
 If you have additions, please open a pull request.
 
 ---
@@ -15,11 +15,8 @@ If you have additions, please open a pull request.
 - [FPGA Based](#fpga-based)
 - [Bus Systems](#bus-systems)
 - [Sensors](#sensors)
-- [Open Source Projects](#open-source-projects)
-- [Robot Competitions](#robot-competitions)
-- [University Projects](#university-projects)
 
----
+  ---
 
 ## Brushed Motor Drivers
 
