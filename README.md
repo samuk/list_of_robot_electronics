@@ -1,6 +1,6 @@
-# Robot Electronics Open Hardware Resources
+# Open Hardware Robot Electronics
 
-A list of resources, open hardware projects and products useful for robot electronics. For a list of complete robots see [Awesome Open Source Robots](https://github.com/stephane-caron/awesome-open-source-robots)
+A list of open hardware projects and products useful for robot electronics. For a list of complete robots see [Awesome Open Source Robots](https://github.com/stephane-caron/awesome-open-source-robots)
 If you have additions, please open a pull request.
 
 ---
